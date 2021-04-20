@@ -17,6 +17,6 @@ function szamol() {
       
     //------------
     var fizetendo = ejszaka * letszam * ar;
-    document.getElementById('eredmeny').value = fizetendo.toLocaleString+" Ft";
+    document.getElementById('eredmeny').value = fizetendo+" Ft";
     
 }
